@@ -1,2 +1,3 @@
 # info2180-project1
-first project for info2180
+
+This is project 1 for Jevaughn Johnson
