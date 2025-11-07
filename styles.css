@@ -7,5 +7,26 @@ body {
 .container {
     margin: 0 auto;
     max-width: 960px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px;
     width: 100%;
+}
+
+h1{
+    text-align: left;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin-right: 20px;
+}
+#overview-hero-image{
+    float: left;
+}
+#overview-hero-text{
+    float: right;
+    padding-top: 100px;
 }
