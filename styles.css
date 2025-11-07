@@ -7,15 +7,10 @@ body {
 .container {
     margin: 0 auto;
     max-width: 960px;
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 50px;
     width: 100%;
 }
 
-h1{
-    text-align: left;
-}
+
 ul{
     list-style-type: none;
 }
@@ -23,10 +18,71 @@ li{
     display: inline;
     margin-right: 20px;
 }
-#overview-hero-image{
-    float: left;
+
+
+.overview-hero-text{
+    text-align: left;
 }
-#overview-hero-text{
-    float: right;
-    padding-top: 100px;
+.learn-about .cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+header .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 0; 
+}
+
+.overview-hero .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center; 
+    gap: 20px; 
+    padding-bottom: 50px;
+}
+
+.testing .container {
+    display: grid;
+    grid-template-columns: auto auto; 
+    align-items: center; 
+    gap: 40px; 
+    padding: 50px;
+}
+
+article{
+    display: grid;
+    grid-template-columns: auto auto; 
+    align-items: center; 
+    gap: 40px; 
+    padding-bottom: 50px;
+}
+
+.article-body {
+    grid-column: 2/3;
+}
+
+.stories img{
+    border-radius: 25%;
+}
+
+.newsletter {
+    align-items: center; 
+    text-align: center; 
+    padding: 50px; 
+}
+form{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.btn{
+    width: 100px;
+    padding: 5px;
+}
+#email{
+    padding: 10px;
+    width: 300px;
 }
